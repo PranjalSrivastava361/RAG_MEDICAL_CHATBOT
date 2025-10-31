@@ -1,6 +1,6 @@
 # 🩺 RAG MEDICAL CHATBOT
 
-> **Note:** You should add a 1-2 sentence description here explaining what your project does. For example: "This is a chatbot that uses Retrieval-Augmented Generation (RAG) to answer medical questions, built with Python and deployed on AWS."
+> This project is a medical chatbot that leverages Retrieval-Augmented Generation (RAG) to provide accurate answers to health-related queries. Built in Python, it features a complete CI/CD pipeline using Jenkins, Docker, and Trivy for vulnerability scanning, all automating deployment to AWS App Runner.
 
 ---
 
@@ -22,3 +22,16 @@ Follow these steps to set up and run the project on your local machine.
 ```bash
 git clone [https://github.com/PranjalSrivastava361/RAG_MEDICAL_CHATBOT.git](https://github.com/PranjalSrivastava361/RAG_MEDICAL_CHATBOT.git)
 cd RAG_MEDICAL_CHATBOT
+
+### 2. Create a Virtual Environment (Windows)
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+
+### 3. Install Dependencies
+```bash
+pip install -e .
+
+### 4. Run the Application
+python app.py
